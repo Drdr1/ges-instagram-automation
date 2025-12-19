@@ -1,0 +1,34 @@
+# Core Framework
+fastapi==0.95.0
+uvicorn[standard]==0.21.1
+
+# Database
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+alembic==1.12.1
+
+# Pydantic (compatible with instagrapi)
+pydantic==1.10.9
+
+# Instagram API
+instagrapi==2.0.0
+
+# Image Processing (REQUIRED for instagrapi)
+Pillow>=8.1.1
+
+# Additional instagrapi dependencies
+pycryptodomex==3.18.0
+pydantic==1.10.9
+requests==2.31.0
+PySocks==1.7.1
+moviepy==1.0.3
+
+# Security & Encryption
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+cryptography==41.0.7
+python-dotenv==1.0.0
+
+# Utilities
+python-multipart==0.0.6
+email-validator==2.3.0
