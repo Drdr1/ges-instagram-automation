@@ -182,7 +182,7 @@ cd ..
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 ### Environment Variables
 
