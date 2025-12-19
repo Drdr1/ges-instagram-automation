@@ -13,10 +13,7 @@ A specialized SaaS platform for the nightlife industry that provides smooth Inst
 - [Usage](#usage)
 - [API Documentation](#api-documentation)
 - [Testing](#testing)
-- [Deployment](#deployment)
-- [Troubleshooting](#troubleshooting)
 - [Future Enhancements](#future-enhancements)
-- [License](#license)
 
 ---
 
