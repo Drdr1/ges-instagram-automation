@@ -1,0 +1,101 @@
+.onboarding-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+}
+
+.onboarding-card {
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  max-width: 450px;
+  width: 100%;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.onboarding-card h2 {
+  margin: 0 0 15px 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.onboarding-card p {
+  color: #666;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.icon {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.success-icon {
+  animation: bounce 1s ease infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.code-input {
+  text-align: center;
+  font-size: 24px;
+  letter-spacing: 10px;
+  font-weight: 600;
+  padding: 15px !important;
+}
+
+.btn-primary,
+.btn-secondary {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.btn-primary:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(102, 126, 234, 0.4);
+}
+
+.btn-secondary {
+  background: #f0f0f0;
+  color: #333;
+  margin-top: 15px;
+}
+
+.btn-secondary:hover {
+  background: #e0e0e0;
+}
+
+.btn-primary:disabled,
+.btn-secondary:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.loading {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  padding: 40px;
+}
+
+.onboarding-card.success {
+  border: 3px solid #4caf50;
+}
