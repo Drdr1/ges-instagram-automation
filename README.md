@@ -611,13 +611,12 @@ server {
 **Last Updated**: December 2025
 
 ### Completed Features
- User application system
- Admin approval workflow  
- Instagram login (password + 2FA + challenge)
- Session persistence
- Proxy architecture (mock for testing)
- Beautiful frontend UI
- Complete API documentation
+ [ ] User application system
+ [ ] Admin approval workflow  
+ [ ] Instagram login (password + 2FA + challenge)
+ [ ] Session persistence
+ [ ] Proxy architecture (mock for testing)
+ [ ] Beautiful frontend UI
+ [ ] Complete API documentation
 ---
 
-*Making Instagram automation accessible, smooth, and reliable.*
