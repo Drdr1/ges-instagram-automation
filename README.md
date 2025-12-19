@@ -20,7 +20,7 @@ A specialized SaaS platform for the nightlife industry that provides smooth Inst
 
 ---
 
-## 🎯 Overview
+## Overview
 
 GES (Global Entertainment System) is an Instagram automation platform specifically designed for nightlife businesses. It solves the critical problem of high drop-off rates during user onboarding by implementing a **classic login + 2FA flow** instead of requiring backup codes.
 
