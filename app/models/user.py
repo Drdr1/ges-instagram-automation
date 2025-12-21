@@ -61,6 +61,11 @@ class User(Base):
     # Account health
     is_active = Column(Boolean, default=True)
     ban_reason = Column(Text, nullable=True)
+
+    # ManyChat Integration
+    manychat_subscriber_id = Column(String(255), nullable=True, unique=True)
+    manychat_connected_at = Column(DateTime, nullable=True)
+    chatbot_enabled = Column(Boolean, default=False)
     
     def __repr__(self):
         return f"<User {self.instagram_username} - {self.status.value}>"
